@@ -6,6 +6,7 @@ app.use(express.json())
 const { Sequelize, DataTypes } = require('sequelize')
 
 const conn = new Sequelize('mysql://root:@172.16.5.99/node24122021') // Example for postgres
+
 // const conn = new Sequelize({
 //     dialect: 'sqlite',
 //     storage: 'mkdb.sqlite'
